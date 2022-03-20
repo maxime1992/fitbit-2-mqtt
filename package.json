@@ -1,0 +1,15 @@
+{
+  "name": "fitbit-2-mqtt",
+  "version": "0.0.1",
+  "description": "Interact with your Fitbit data using MQTT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mqtt": "4.3.6",
+    "axios": "0.26.0"
+  },
+  "devDependencies": {
+  }
+}

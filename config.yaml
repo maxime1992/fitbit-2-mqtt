@@ -1,0 +1,25 @@
+name: "Fitbit2MQTT"
+description: "Interact with your Fitbit data using MQTT"
+version: "0.0.5"
+slug: "fitbit_2_mqtt"
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+startup: "services"
+boot: "auto"
+services:
+  - mqtt:need
+options:
+  mqttsPort: 8883
+  fitbitBasicToken: ""
+  fitbitRefreshToken: ""
+  fitbitUserId: ""
+schema:
+  mqttsPort: port
+  fitbitBasicToken: str
+  fitbitRefreshToken: str
+  fitbitUserId: str
+  
